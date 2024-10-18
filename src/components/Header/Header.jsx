@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { fetchRates } from "../api/api";
+import { fetchRates } from "../../api/api";
+import styles from "../Header/header.module.css";
 
 const Header = () => {
   const [rates, setRates] = useState({ USD: 0, EUR: 0 });
@@ -19,10 +20,10 @@ const Header = () => {
   }, []);
 
   return (
-    <header>
-      <h1>Курс валют щодо гривні</h1>
-      <p>1 USD = {rates.USD.toFixed(2)} UAH</p>
-      <p>1 EUR = {rates.EUR.toFixed(2)} UAH</p>
+    <header className={styles.header}>
+      <h1 className={styles.title}>Курс валют</h1>
+      <p className={styles.rate}>USD = {rates.USD.toFixed(2)} UAH</p>
+      <p className={styles.rate}>EUR = {rates.EUR.toFixed(2)} UAH</p>
     </header>
   );
 };

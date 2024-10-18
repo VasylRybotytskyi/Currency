@@ -1,0 +1,31 @@
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.header:hover {
+  background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.rate {
+  font-size: 1.25rem;
+  color: #6c757d;
+  margin: 3px 0;
+  transition: color 0.3s ease;
+}
+
+.rate:hover {
+  color: #007bff;
+  cursor: pointer;
+}

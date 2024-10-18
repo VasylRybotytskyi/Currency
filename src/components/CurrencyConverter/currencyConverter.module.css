@@ -1,0 +1,49 @@
+.converter {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.converter h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.inputGroup input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+.inputGroup input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.inputGroup select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.inputGroup select:focus {
+  border-color: #007bff;
+  outline: none;
+}
